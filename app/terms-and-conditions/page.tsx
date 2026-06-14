@@ -68,6 +68,28 @@ export default function TermsAndConditionsPage() {
           resolution and remain accessible for 90 days from the date of
           service.
         </p>
+        <p className="mt-4">
+        Digital copies will be stored on{" "}
+        <a
+          href="https://picabot.club"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-pink-600 hover:underline"
+        >
+          picabot.club
+        </a>{" "}
+        /{" "}
+        <a
+          href="https://picabot.in"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-pink-600 hover:underline"
+        >
+          Picabot.in
+        </a>{" "}
+        servers for 24 hours to generate sharing links and will be
+        automatically deleted after 24 hours for data privacy.
+      </p>
       </LegalSection>
 
       <LegalSection title="6. User Conduct and Responsibilities">

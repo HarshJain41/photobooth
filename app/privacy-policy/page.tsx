@@ -101,6 +101,28 @@ export default function PrivacyPolicyPage() {
           photographs within 30 days of your visit; in the absence of such a
           request, photographs are automatically deleted after 90 days.
         </p>
+        <p className="mt-4">
+        Digital copies will be stored on{" "}
+        <a
+          href="https://picabot.club"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-pink-600 hover:underline"
+        >
+          picabot.club
+        </a>{" "}
+        /{" "}
+        <a
+          href="https://picabot.in"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-pink-600 hover:underline"
+        >
+          Picabot.in
+        </a>{" "}
+        servers for 24 hours to generate sharing links and will be
+        automatically deleted after 24 hours for data privacy.
+      </p>
       </LegalSection>
 
       <LegalSection title="8. Children's Privacy">

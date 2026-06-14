@@ -75,12 +75,12 @@ export default function Footer() {
                 Photoboothmango@gmail.com
               </a>
               <a
-                href="https://www.instagram.com/ramit_bhanawat?igsh=NnBwZHBrcjdnbDZq&utm_source=qr"
+                href="https://www.instagram.com/gangaur_photobooth?igsh=Z2wybG4ydXphanhw"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-pink-400"
               >
-                @ramit_bhanawat
+                @gangaur_photobooth
               </a>
             </div>
           </div>

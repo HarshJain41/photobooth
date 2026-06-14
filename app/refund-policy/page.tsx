@@ -30,6 +30,29 @@ export default function RefundPolicyPage() {
             "Issues must be reported before leaving our premises",
           ]}
         />
+
+        <p className="mt-4">
+        Digital copies will be stored on{" "}
+        <a
+          href="https://picabot.club"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-pink-600 hover:underline"
+        >
+          picabot.club
+        </a>{" "}
+        /{" "}
+        <a
+          href="https://picabot.in"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-pink-600 hover:underline"
+        >
+          Picabot.in
+        </a>{" "}
+        servers for 24 hours to generate sharing links and will be
+        automatically deleted after 24 hours for data privacy.
+      </p>
       </LegalSection>
 
       <LegalSection title="3. Advance Bookings and Event Packages">
