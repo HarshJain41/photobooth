@@ -7,9 +7,9 @@ export default function Contact() {
       id="contact"
       className="bg-slate-950 py-24 text-white"
     >
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-4xl px-6">
         <div className="text-center">
-          <p className="font-semibold uppercase tracking-widest text-pink-400">
+          <p className="font-semibold uppercase tracking-[0.3em] text-pink-400">
             Contact Us
           </p>
 
@@ -23,101 +23,82 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-5">
-          {/* Address */}
-          <a
-            href={mapsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-3xl border border-slate-800 bg-slate-900 p-8 transition hover:-translate-y-1 hover:border-pink-500"
-          >
-            <div className="text-4xl">📍</div>
+        <div className="mt-16 overflow-hidden rounded-3xl border border-slate-800 bg-slate-900/60 backdrop-blur">
+          <div className="divide-y divide-slate-800">
+            <div className="flex flex-col gap-2 p-6 md:flex-row md:items-center md:justify-between">
+              <span className="font-semibold text-white">
+                📍 Address
+              </span>
 
-            <h3 className="mt-4 text-xl font-bold">
-              Address
-            </h3>
+              <a
+                href={mapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-300 transition hover:text-pink-400"
+              >
+                Near Gangaur Ghat, Udaipur, Rajasthan
+              </a>
+            </div>
 
-            <p className="mt-3 text-slate-300">
-              Near Gangaur Ghat
-              <br />
-              Udaipur, Rajasthan
-              <br />
-              India
-            </p>
-          </a>
+            <div className="flex flex-col gap-2 p-6 md:flex-row md:items-center md:justify-between">
+              <span className="font-semibold text-white">
+                📞 Phone
+              </span>
 
-          {/* Phone */}
-          <a
-            href="tel:+917426937749"
-            className="rounded-3xl border border-slate-800 bg-slate-900 p-8 transition hover:-translate-y-1 hover:border-pink-500"
-          >
-            <div className="text-4xl">📞</div>
+              <a
+                href="tel:+917426937749"
+                className="text-slate-300 transition hover:text-pink-400"
+              >
+                +91 7426937749
+              </a>
+            </div>
 
-            <h3 className="mt-4 text-xl font-bold">
-              Phone
-            </h3>
+            <div className="flex flex-col gap-2 p-6 md:flex-row md:items-center md:justify-between">
+              <span className="font-semibold text-white">
+                ✉️ Email
+              </span>
 
-            <p className="mt-3 text-slate-300">
-              +91 7426937749
-            </p>
-          </a>
+              <a
+                href="mailto:Photoboothmango@gmail.com"
+                className="break-all text-slate-300 transition hover:text-pink-400"
+              >
+                Photoboothmango@gmail.com
+              </a>
+            </div>
 
-          {/* Email */}
-          <a
-            href="mailto:hello@gangaurphotobooth.com"
-            className="rounded-3xl border border-slate-800 bg-slate-900 p-8 transition hover:-translate-y-1 hover:border-pink-500"
-          >
-            <div className="text-4xl">✉️</div>
+            <div className="flex flex-col gap-2 p-6 md:flex-row md:items-center md:justify-between">
+              <span className="font-semibold text-white">
+                📸 Instagram
+              </span>
 
-            <h3 className="mt-4 text-xl font-bold">
-              Email
-            </h3>
+              <a
+                href="https://www.instagram.com/gangaur_photobooth"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="break-all text-slate-300 transition hover:text-pink-400"
+              >
+                @gangaur_photobooth
+              </a>
+            </div>
 
-            <p className="mt-3 break-words text-slate-300">
-              Photoboothmango@gmail.com
-            </p>
-          </a>
+            <div className="flex flex-col gap-2 p-6 md:flex-row md:items-center md:justify-between">
+              <span className="font-semibold text-white">
+                🕒 Opening Hours
+              </span>
 
-          {/* Instagram */}
-          <a
-            href="https://www.instagram.com/ramit_bhanawat?igsh=NnBwZHBrcjdnbDZq&utm_source=qr"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-3xl border border-slate-800 bg-slate-900 p-8 transition hover:-translate-y-1 hover:border-pink-500"
-          >
-            <div className="text-4xl">📸</div>
-
-            <h3 className="mt-4 text-xl font-bold">
-              Instagram
-            </h3>
-
-            <p className="mt-3 text-slate-300">
-              @ramit_bhanawat
-            </p>
-          </a>
-
-          {/* Opening Hours */}
-          <div className="rounded-3xl border border-slate-800 bg-slate-900 p-8">
-            <div className="text-4xl">🕒</div>
-
-            <h3 className="mt-4 text-xl font-bold">
-              Opening Hours
-            </h3>
-
-            <p className="mt-3 text-slate-300">
-              Daily
-              <br />
-              8:00 AM – 11:00 PM
-            </p>
+              <span className="text-slate-300">
+                Daily • 8:00 AM – 11:00 PM
+              </span>
+            </div>
           </div>
         </div>
 
-        <div className="mt-16 text-center">
+        <div className="mt-12 text-center">
           <a
             href={mapsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex rounded-xl bg-pink-500 px-8 py-4 font-semibold text-white transition hover:bg-pink-600"
+            className="inline-flex items-center rounded-xl bg-pink-500 px-8 py-4 font-semibold text-white transition hover:bg-pink-600"
           >
             View on Google Maps
           </a>
